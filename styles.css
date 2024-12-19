@@ -1,0 +1,23 @@
+body {
+margin: 20px;
+color:#ccc;
+}
+
+form{
+border: 1px solid #ccc;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+input {
+border: 1px solid #ccc;
+padding : 3px;
+margin:5px 0;
+}
+input[type="submit"] {
+background-color: #4569ec;
+}
+input[type="submit"]:hover {
+background-color: #4676e0;
+}
